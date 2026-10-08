@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: #8ad6d1;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    position: fixed;
+    background-color: #359FA0;
+    padding: 15px;
+    height: 15px;
+    width: 100%;
+    text-align: left;
+    z-index: 1000;
+    border-bottom: 2px solid;
+}
+
+nav a{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+section{
+    scroll-margin-top: 20px;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.home-text{
+    width: 40%;
+    border: 2px solid;
+    height: auto;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fact-box{
+    border: 2px solid;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #8ad6d1;
+}
+
+#home h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-images {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    margin-top: 20px;
+}
+
+.home-images img{
+    width: 300px;
+    height: auto;
+}
+
+#about h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#about p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+#about img{
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+    border: 2px solid;
+    margin-top: 8px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#interests {
+    background-color: #FFF0C5;
+}
+
+#interests h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    color: #FF8C52;
+}
+
+#interests h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    color: #FF8C52;
+}
+
+#interests ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#interests h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+#interests form{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#interests form label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#interests form input{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#interests form button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.my-table{
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.my-table th{
+    background-color: #FF8C52;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+.my-table td{
+    padding: 15px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#background {
+    background-color: #FFF0C5;
+}
+
+#background h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    color: #FF8C52
+}
+
+#background p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
